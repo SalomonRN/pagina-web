@@ -340,7 +340,7 @@ imagen = () => {
 
 
     //
-    if (document.getElementById("carr").value == "KIA") {d
+    if (document.getElementById("carr").value == "KIA") {
         Kia_Picanto.style.display = "block";
         Spark_GT.style.display = "none";
         Beat_Chevrolet.style.display = "none";
@@ -362,13 +362,6 @@ imagen = () => {
         JOY_2024_txt.style.display = "none";
         Nissan_March_txt.style.display = "none";
         MUSTANG_GT_txt.style.display = "none";
-
-
-
-
-
-
-
     }
     if (document.getElementById("carr").value == "SGT") {
         Kia_Picanto.style.display = "none";
