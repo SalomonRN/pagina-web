@@ -1,3 +1,9 @@
-body{
-    background-color: #1C1F23;
+.img-contenedor img{
+    display: none;
 }
+/*
+* Aca, dentro del @media será el diseño que va a tomar la pagina cuando
+* tenga un ancho de 750px, si es mas de este número entonces se va a diseñar
+* segun como esté la parte de arriba
+*/
+@media (max-width: 750px) {}

@@ -5,30 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleBootStrap.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #212529 !important;">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-            <span class="fs-4">Simple header</span>
-        </a>
 
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <!--ACA CUANDO SE PASE EL CURSOS SOBRE LO QUE DICE "PRODUCTOS" SALGA CARS Y SPARE PARTS-->
-            <li class="nav-item"><a href="" class="nav-link">Products</a></li>
-            <li class="nav-item"><a href="/htmls/carros.html" class="nav-link">Cars</a></li>
-            <li class="nav-item"><a href="htmls/spare.html" class="nav-link">Spare Parts</a></li>
-            <li class="nav-item"><a href="htmls/about.html" class="nav-link">About us</a></li>
-        </ul>
-    </header>
 
+    <h1>Elija su vehiculo</h1>
+    <div class="img-contenedor">
+        <img id="1" src="src/images/Kia_Picanto.jpg" alt="" style="display: block;">
+        <img id="2" src="src/images/Spark_GT.jpg" alt="">
+        <img id="3" src="src/images/Beat_Chevrolet.jpg" alt="">
+        <img id="4" src="src/images/Chevrolet_sail.jpg" alt="">
+        <img id="5" src="src/images/Mazda_cx50.jpg" alt="">
+        <img id="6" src="src/images/Logan_Life.jpg" alt="">
+        <img id="7" src="src/images/Bolt_EUV.jpg" alt="">
+        <img id="8" src="src/images/JOY_2024.jpg" alt="">
+        <img id="9" src="src/images/Nissan_March.jpg" alt="">
+        <img id="10" src="src/images/MUSTANG_GT.jpg" alt="">
+        <p id="1" style="display: block;">Descripcion del vehiculo</p>
+        <p id="2">Descripcion del vehiculo</p>
+        <p id="3">Descripcion del vehiculo</p>
+        <p id="4">Descripcion del vehiculo</p>
+        <p id="5">Descripcion del vehiculo</p>
+        <p id="6">Descripcion del vehiculo</p>
+        <p id="7">Descripcion del vehiculo</p>
+        <p id="8">Descripcion del vehiculo</p>
+        <p id="9">Descripcion del vehiculo</p>
+        <p id="10">Descripcion del vehiculo</p>
+    </div>
+
+    <!--PARA CENTRAR-->
+    <select id="carr" onchange="imagen()">
+        <option value="KIA">Kia Picanto</option>
+        <option value="SGT">Spark GT</option>
+        <option value="BEC">Beat Chevrolet</option>
+        <option value="CHS">Chevrolet Sail</option>
+        <option value="MZC">Mazda CX50</option>
+        <option value="LGL">Logan Life</option>
+        <option value="EUV">Bolt EUV</option>
+        <option value="JOY">JOY 2024</option>
+        <option value="NSM">NISSAN MARCH</option>
+        <option value="MGT">MUSTANG GT</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="comprar_veh()">COMPRAR</button>
+    <label for="fechaInicio">Fecha de inicio:</label>
+    <input type="date" id="fechaInicio">
+    <br>
+    <label for="fechaFin">Fecha de fin:</label>
+    <input type="date" id="fechaFin">
+    <br>
+    <button onclick="alquilar()">Alquilar</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
