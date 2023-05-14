@@ -1,5 +1,10 @@
-.img-contenedor img{
+.contenedor img{
     display: none;
+
+}
+.contenedor p{
+    display: none;
+
 }
 /*
 * Aca, dentro del @media será el diseño que va a tomar la pagina cuando

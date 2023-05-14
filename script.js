@@ -37,10 +37,7 @@ var carros_stock = {
     Nissan_March: 4,
     MUSTANG_GT: 1
 };
-/**
- * Esta funcion es para comprobar si hay vehiculos disponibles, tanto para comprar o para alquilar
- * Funcion 1
- */
+
 verificar_disponibilidad = (veh) => {
     switch (veh) {
         case "Kia_Picanto":
@@ -189,10 +186,6 @@ verificar_disponibilidad = (veh) => {
     }
 }
 
-/**
- * Para pintar en precio final del alquiler
- * Funcion 2
- */
 precio_final = (veh) => {
     hrs = calcularDias();
     if (hrs != 'Por favor, ingresa fechas válidas.') {
@@ -235,9 +228,6 @@ precio_final = (veh) => {
 
 }
 
-/**
- * Para descontar el número total de carros disponibles 
- */
 adquirido = (veh) => {
     switch (veh) {
         case "Kia_Picanto":
@@ -325,6 +315,7 @@ calcularDias = () => {
 }
 
 imagen = () => {
+    /*IMAGENES*/
     let Kia_Picanto = document.getElementById('1')
     let Spark_GT = document.getElementById('2')
     let Beat_Chevrolet = document.getElementById('3')
@@ -335,8 +326,21 @@ imagen = () => {
     let JOY_2024 = document.getElementById('8')
     let Nissan_March = document.getElementById('9')
     let MUSTANG_GT = document.getElementById('10')
+    /*TEXTOS*/
+    let Kia_Picanto_txt = document.getElementById('11')
+    let Spark_GT_txt = document.getElementById('12')
+    let Beat_Chevrolet_txt = document.getElementById('13')
+    let Chevrolet_sail_txt = document.getElementById('14')
+    let Mazda_cx50_txt = document.getElementById('15')
+    let Logan_Life_txt = document.getElementById('16')
+    let Bolt_EUV_txt = document.getElementById('17')
+    let JOY_2024_txt = document.getElementById('18')
+    let Nissan_March_txt = document.getElementById('19')
+    let MUSTANG_GT_txt = document.getElementById('110')
+
+
     //
-    if (document.getElementById("carr").value == "KIA") {
+    if (document.getElementById("carr").value == "KIA") {d
         Kia_Picanto.style.display = "block";
         Spark_GT.style.display = "none";
         Beat_Chevrolet.style.display = "none";
@@ -347,6 +351,23 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "block";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
+
+
+
+
+
+
 
     }
     if (document.getElementById("carr").value == "SGT") {
@@ -360,6 +381,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "block";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "BEC") {
@@ -373,6 +405,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "block";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "CHS") {
@@ -386,6 +429,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "block";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "MZC") {
@@ -399,6 +453,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "block";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "LGL") {
@@ -412,6 +477,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "block";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "EUV") {
@@ -425,6 +501,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "block";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "JOY") {
@@ -438,6 +525,17 @@ imagen = () => {
         JOY_2024.style.display = "block";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "block";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "NSM") {
@@ -451,6 +549,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "block";
         MUSTANG_GT.style.display = "none";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "block";
+        MUSTANG_GT_txt.style.display = "none";
 
     }
     if (document.getElementById("carr").value == "MGT") {
@@ -464,6 +573,17 @@ imagen = () => {
         JOY_2024.style.display = "none";
         Nissan_March.style.display = "none";
         MUSTANG_GT.style.display = "block";
+        //
+        Kia_Picanto_txt.style.display = "none";
+        Spark_GT_txt.style.display = "none";
+        Beat_Chevrolet_txt.style.display = "none";
+        Chevrolet_sail_txt.style.display = "none";
+        Mazda_cx50_txt.style.display = "none";
+        Logan_Life_txt.style.display = "none";
+        Bolt_EUV_txt.style.display = "none";
+        JOY_2024_txt.style.display = "none";
+        Nissan_March_txt.style.display = "none";
+        MUSTANG_GT_txt.style.display = "block";
 
     }
 
