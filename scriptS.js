@@ -582,7 +582,6 @@ imagen = () => {
 }
 
 alquilar = () => {
-    alert("JA")
     if (document.getElementById("carr").value == "KIA") {
         verificar_disponibilidad("Kia_Picanto")
     }
