@@ -305,7 +305,6 @@ calcularDias = () => {
     if (fechaInicio && fechaFin && fechaInicio <= fechaFin) {
         unDia = 24 * 60 * 60 * 1000; // Cantidad de milisegundos en un día
         diferenciaDias = Math.round(Math.abs((fechaFin - fechaInicio) / unDia));
-        document.getElementById('resultado').textContent = `La cantidad de días entre las fechas es: ${diferenciaDias}`;
         return diferenciaDias
 
     } else {
@@ -583,6 +582,7 @@ imagen = () => {
 }
 
 alquilar = () => {
+    alert("JA")
     if (document.getElementById("carr").value == "KIA") {
         verificar_disponibilidad("Kia_Picanto")
     }

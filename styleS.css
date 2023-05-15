@@ -36,7 +36,6 @@
 .main .contenedor-p p {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
 }
 
 .main .contenedor-p .izq {
@@ -51,7 +50,111 @@
     width: 45%;
 
 }
+
 .main .contenedor-p .der p {
     display: block;
 
+}
+
+.options {
+    margin: 5px;
+
+}
+
+.options button {
+    display: block;
+}
+
+button {
+    margin: 5px;
+}
+
+.dates {
+    margin-left: 17%;
+}
+
+
+select {
+    margin-left: 45%;
+}
+
+#btn {
+    margin-left: 45%;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #3498db;
+}
+
+#btn:hover {
+    background-color: #2980b9;
+}
+
+#btn:active {
+    background-color: #1f618d;
+}
+
+#btn2 {
+    margin-left: 45%;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #3498db;
+}
+
+#btn2:hover {
+    background-color: #2980b9;
+}
+
+#btn2:active {
+    background-color: #1f618d;
+}
+
+/*
+* ASDASGUDHASJKD
+*
+*
+*
+*/
+#fechaInicio,#fechaFin {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    /* Estilos adicionales para ajustar el ancho del input */
+    width: 200px;
+    box-sizing: border-box;
+}
+
+#fechaInicio::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+#fechaFin::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+#fechaInicio:hover {
+    border-color: #3498db;
+}
+#fechaFin:hover {
+    border-color: #3498db;
+}
+
+#fechaFin:focus {
+    border-color: #2980b9;
 }
