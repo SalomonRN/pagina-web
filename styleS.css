@@ -1,3 +1,48 @@
+/**/
+.conten {
+    padding-left: 8%;
+    padding-top: 2%;
+    width: 95vw;
+
+}
+
+.conten #conse {
+    width: 100%;
+}
+
+.conten .home .content-texto-index {
+    width: 95%;
+}
+
+.conten .home .content-texto-index p {
+    padding-top: 2%;
+    text-align: center;
+}
+.conten .main .contenedor-p{
+    /*background-color: red;*/
+}
+.conten .main .contenedor-p .izq {
+    padding-top: 2%;
+    display: block;
+
+}
+
+.main .contenedor-p .izq #logo-i {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    display: block;
+
+}
+
+.main .contenedor-p .der .txt-about-us {
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+
+/*OTRA*/
 .main {
     padding-left: 88px;
     height: 25vh;
@@ -20,6 +65,13 @@
     padding: 5px;
     display: none;
 }
+
+.home .text {
+    text-align: center;
+    padding: 5px;
+}
+
+
 
 /*PARA ASESORES*/
 
@@ -128,7 +180,8 @@ select {
 *
 *
 */
-#fechaInicio,#fechaFin {
+#fechaInicio,
+#fechaFin {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -144,6 +197,7 @@ select {
 #fechaInicio::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
+
 #fechaFin::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
@@ -151,6 +205,7 @@ select {
 #fechaInicio:hover {
     border-color: #3498db;
 }
+
 #fechaFin:hover {
     border-color: #3498db;
 }
