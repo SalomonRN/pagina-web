@@ -1,0 +1,57 @@
+.main {
+    padding-left: 88px;
+    height: 25vh;
+}
+
+.main-text {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.main .contenedor img {
+    padding: 50px;
+    width: 100%;
+    display: none;
+
+}
+
+.main .contenedor p {
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+
+/*PARA ASESORES*/
+
+.main img {
+    width: 100%;
+    display: block;
+}
+
+.main .contenedor-p {
+    text-align: center;
+    display: flex;
+}
+
+.main .contenedor-p p {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.main .contenedor-p .izq {
+    display: flex;
+    width: 45%;
+
+}
+
+.main .contenedor-p .der {
+    flex-direction: column;
+    display: flex;
+    width: 45%;
+
+}
+.main .contenedor-p .der p {
+    display: block;
+
+}
